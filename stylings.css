@@ -19,6 +19,7 @@
     animation-duration: 0.75s;
     animation-name: slidein;
     margin-bottom:-5px;
+    margin-left:200px;
     overflow: hidden;
     font-style: italic;
 }
