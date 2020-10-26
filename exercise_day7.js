@@ -25,7 +25,7 @@ lyricGet.addEventListener("click", ()=>{
                 }
 
                 //grab response and split into array separated by newline character
-                //grab holder, clear it, for loop through array, create P element, fill with an array line and then append
+                //grab holder, clear it, for loop through array, create P element, fill with an array line and then append after adding CSS class lyricP
                 else{
                     let songArr=((response2.lyrics).split("\n"));
                     let divHold=document.getElementById("holder");
